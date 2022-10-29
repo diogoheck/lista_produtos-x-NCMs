@@ -5,8 +5,7 @@ from compara_ncm.compara_ncm_planilhas import ncm_produto_x_ncm_alteradas
 import os
 import csv
 
-# App para comparar NCM que mudaram de tributacao com os produtos que a empresa esta vendendo
-# assim pode-se verificar se ela esta fazendo venda incorreta de tributacao
+
 
 # ler a planilha das NCMs ST
 lista_ncm = ler_planilha_excel_ncm_st()
