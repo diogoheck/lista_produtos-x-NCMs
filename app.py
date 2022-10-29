@@ -22,16 +22,6 @@ with open('planilhas' + os.sep + 'produtos.csv') as produtos:
 
         lista_produtos_alterados.append(produto)
 
-# ler excel
-# planilha_produtos = pasta_produtos['produtos']
-# linha = 1
-# for produto in planilha_produtos:
-#     if planilha_produtos[f'BS{linha}'].value == 'True':
-#         planilha_produtos[f'L{linha}'].fill = PatternFill("solid", start_color="FFFF00")
-#     linha += 1
-
-# pasta_produtos.save('produtos_analisados.xlsx')
-
 
     
 # criar nova planilha para colocar resultado
