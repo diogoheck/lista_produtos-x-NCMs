@@ -5,7 +5,7 @@ from compara_ncm.compara_ncm_planilhas import ncm_produto_x_ncm_alteradas
 import os
 import csv
 
-# ler a planilha das NCMs
+# ler a planilha das NCMs ST
 lista_ncm = ler_planilha_excel_ncm_st()
 
 
