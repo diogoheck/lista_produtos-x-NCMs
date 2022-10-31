@@ -16,3 +16,4 @@ def ncm_produto_x_ncm_alteradas(NCM, lista_ncm):
         return True
 
     return False
+

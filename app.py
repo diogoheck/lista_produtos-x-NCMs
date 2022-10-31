@@ -13,6 +13,9 @@ lista_ncm = ler_planilha_excel_ncm_st()
 lista_produtos_alterados = []
 with open('planilhas' + os.sep + 'produtos.csv') as produtos:
     for produto in csv.reader(produtos, delimiter=';'):
+        if len(produto[11]) == 7:
+            produto[11] = '0' + produto[11]
+
         if len(produto[11]) == 8:
             eh_igual = ncm_produto_x_ncm_alteradas(produto[11], lista_ncm) 
             if eh_igual:
